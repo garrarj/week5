@@ -1,0 +1,66 @@
+/* Some default styling for the page */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap');
+
+header{
+    padding: 20px;
+    background-color: lightgrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Merriweather', Georgia, serif;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 25px;
+}
+
+header nav a{
+   padding: 15px 50px;
+   margin: 0 10px;
+   background-color: darkgrey;
+   text-decoration: none;
+   color: white;
+   font-size: 1.2em;
+}
+
+main{
+    background-color: snow;
+    padding: 50px 75px;
+    margin: 110px 10px 10px 10px;
+    font-family: 'Raleway', Arial, sans-serif;
+    line-height: 24px;
+}
+
+main div{
+    text-align: center;
+    margin: 25px;
+}
+
+main div button{
+    padding: 20px;
+    border: none;
+    background-color: steelblue;
+    color: white;
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgrey;
+    padding: 20px;
+}
+footer nav a{
+    padding: 5px 15px;
+    margin: 0 10px;
+    background-color: darkgrey;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer p{
+    color: white;
+}
