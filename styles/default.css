@@ -47,6 +47,10 @@ main div button{
     font-style: oblique;
 }
 
+main div input{
+    padding: 10px 20px;
+}
+
 footer{
     text-align: center;
     background-color: lightgrey;
