@@ -1,0 +1,24 @@
+header h1{
+    color: #0a7986;
+    text-shadow: -2px -2px #000000;
+}
+
+
+/* colours in CSS 
+    Named colours
+
+    RGB
+    RGB with alpha (RGBa)
+       color: RGBa(3, 128, 147, 0.2);
+    RBG calculator: https://www.w3schools.com/colors/colors_rgb.asp
+
+    HSL
+    HSL with alpha (HSLa)
+     HSLa(255, 20%, 30%, 0.4);
+    HSL calculator: https://www.w3schools.com/colors/colors_hsl.asp
+
+    Hexidecimal
+      color: #9167a5;
+    Hexidecimal with alpha
+    HEX calculator: https://www.w3schools.com/colors/colors_hexadecimal.asp
+*/
