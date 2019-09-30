@@ -1,0 +1,70 @@
+.nav-links:hover{
+    background-color: red;
+}
+.nav-links:active{
+    background-color: green;
+    border: 10px solid blue;
+}
+
+.form-fields:optional:focus{
+    border: 2px solid green;
+}
+.form-fields:required{
+    border: 2px solid red;
+}
+
+.nav-links:nth-child(even){
+    background-color: yellow;
+}
+
+.form-container h3:hover::after{
+    content:" RIGHT NOW!";
+    color: purple;
+}
+
+
+/****************************************************************************************/
+/* Shortcut in Visual Studio code for commenting code: CTRL+K+C (uncomment: CTRL+K+U) */
+
+/*
+The main difference between pseudo-classes and pseudo-elements is that pseudo-classes are used to affect EXISTING elements and pseudo-elements are used to CREATE new elements
+
+Pseudo-Classes - affect existing elements based on a condition
+    :hover
+    :active
+
+    :focus
+    :optional
+    :required
+
+    :nth-child()
+    :first-child
+    :last-child
+
+    :not()
+
+    :link
+    :checked
+    :visited
+    :valid
+    :invalid
+    :default
+    :disabled
+    :empty
+    :in-range
+    :lang( )
+    :out-of-range
+    :root
+    :only-of-type
+    :nth-of-type()
+    :first-of-type
+    :last-of-type
+
+Pseudo-Elements - element created 
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+    ::cue (WebVTT)
+*/
