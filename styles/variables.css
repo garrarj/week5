@@ -1,0 +1,13 @@
+/* variables allow you to define certain values which can be applied elsewhere. If that value changes after you've done a lot of work on your project, all you have to do is update one value (rather than go hunting for values across every line of code) */
+
+/* Declaring your variables using the pseudo-class ':root' */
+:root{
+    --bananaColour: yellow;
+    --secondarycolor: rgb(41, 7, 31);
+    --x: font-family: 'Times New Roman', Times, Serif;
+}
+
+/* Call a variable with 'var()' */
+main p{
+    color: var(--secondarycolor);
+}
