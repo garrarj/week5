@@ -4,7 +4,7 @@
 :root{
     --brandTeal: #0a7986;
     --brandOrange: #ce5528;
-    --nerdFont: font-family: 'Courier New', Courier, monospace;
+    --nerdFont: 'Courier New', Courier, monospace;
 }
 
 /* Applying your variables */

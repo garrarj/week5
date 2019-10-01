@@ -41,7 +41,7 @@
 1. Create a new branch called 'gh-pages' with this command: `git checkout -b gh-pages`
 2. Push this new branch to origin with: `git push origin gh-pages`
 
-## Git Workflow - creating a new branch onliine and fetching it locally
+## Git Workflow - creating a new branch online and fetching it locally
 1. Go to your repo on Github.com and create a new branch called 'gh-pages'
 2. Open your terminal (CMD, Git Bash) in your repository (e.g. C:\Users\Jack\Documents\code\week5)
 3. Run this command to fetch the new branch from origin `git fetch`
