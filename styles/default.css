@@ -25,6 +25,10 @@ header nav a{
    font-size: 1.2em;
 }
 
+.mobile-nav-link{
+    display: none;
+}
+
 main{
     background-color: snow;
     padding: 50px 75px;
@@ -49,6 +53,10 @@ main div button{
 
 main div input{
     padding: 10px 20px;
+}
+
+.mobile-form-container{
+    display: none;
 }
 
 footer{
