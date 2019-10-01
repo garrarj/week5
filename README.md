@@ -41,7 +41,14 @@
 1. Create a new branch called 'gh-pages' with this command: `git checkout -b gh-pages`
 2. Push this new branch to origin with: `git push origin gh-pages`
 
-## Git workflow - merging changes between two barnches
+## Git Workflow - creating a new branch onliine and fetching it locally
+1. Go to your repo on Github.com and create a new branch called 'gh-pages'
+2. Open your terminal (CMD, Git Bash) in your repository (e.g. C:\Users\Jack\Documents\code\week5)
+3. Run this command to fetch the new branch from origin `git fetch`
+4. Run this command to view all branches (local and remote) `git branch -a`
+5. Switch to the new branch with this command `git checkout gh-pages`
+
+## Git workflow - merging changes between two branches
 1. To view all branches available locally use this command: `git branch`
 ...The branch with an asterisks (`*`) next to it indicates the branch you are currently on
 2. Switch from 'master' branch to 'gh-pages' branch with this command: `git checkout gh-pages`

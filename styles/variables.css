@@ -8,11 +8,11 @@
 }
 
 /* Applying your variables */
-p:nth-of-type(odd){
+main p{
     color: var(--brandTeal);
 }
-p:nth-of-type(even){
-    color: var(--brandOrange);
+footer nav a{
+    background-color: var(--brandOrange);
 }
 footer p{
     font-family: var(--nerdFont);
