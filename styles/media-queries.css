@@ -1,0 +1,95 @@
+/* 
+What are Media Queries?
+Media Queries are conditional instructions that allow you to dictate style declarations based on the size of the viewport.
+
+You can can add 'breakpoints' which will allow your content to be displayed differently on smaller or larger screens
+
+Some useful links:
+How big is my browser? - http://howbigismybrowser.com/
+List of device screensizes - http://screensiz.es/ 
+
+*/
+
+
+/* Breakpoint: any viewport smaller than 950px will by styled by this declaration */
+@media (max-width: 950px){
+    /* Adjusting the spacing of the nav links */
+    header nav a{
+        padding: 5px 10px;
+        margin: 0 5px;
+    }
+
+    /* Adjusting the form fields to be displayed vertically, rather than horizontally */
+    .form-fields{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* Increasing the size of the image */
+    .image-container{
+        width: 90%;
+    }
+}
+
+/* Breakpoint: any viewport smaller than 650px will by styled by this declaration */
+@media (max-width: 650px){
+    /* Adjusting the size and spacing of the h1 in the header */
+    header h1{
+        display: inline;
+        position: relative;
+        top: 25px;
+        font-size: 24px;
+    }
+
+    /* reducing the negative space around the main tag */
+    main{
+        margin: 50px 5px 5px 5px;
+        padding: 50px 35px;
+        line-height: 28px;
+    }
+
+    /* removing the nav links.. */
+    .nav-links{
+        display: none;
+    }
+
+    /* ...Activating the mobile nav link */
+    .mobile-nav-link{
+        display: inline;
+        position: relative;
+        left: 175px;
+    }
+
+    /* removing the call to action button */
+    .call-to-action{
+        display: none;
+    }
+
+    /* removing the form fields... */
+    .form-container{
+        display: none;
+    }
+
+    /* ...activating the mobile 'sign up' button */
+    .mobile-form-container{
+        display: block;
+        text-align: center;
+    }
+
+    /* styling the 'sign up' button */
+    .mobile-form-container button{
+        padding: 20px;
+        margin: 10px;
+        width: 80%;
+        background-color: #006991;
+        color: white;
+        font-weight: 600;
+    }
+    .mobile-form-container button:hover{
+        background-color: red;
+    }
+    .mobile-form-container button:active{
+        background-color: green;
+    }
+}
