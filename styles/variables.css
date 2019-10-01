@@ -11,7 +11,7 @@
 main p{
     color: var(--brandTeal);
 }
-footer nav a{
+footer nav a:hover{
     background-color: var(--brandOrange);
 }
 footer p{
