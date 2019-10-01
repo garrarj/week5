@@ -1,24 +1,32 @@
 header h1{
     color: #0a7986;
-    text-shadow: -2px -2px #000000;
+    text-shadow: 2px 1px #000000ab;
 }
 
 
 /* colours in CSS 
     Named colours
+      named colours are supported by all browsers but are limited
 
-    RGB
+    RGB - 'red''green''blue'
+      rgb(3, 128. 147);
     RGB with alpha (RGBa)
-       color: RGBa(3, 128, 147, 0.2);
+      RGBa(3, 128, 147, 0.2);
     RBG calculator: https://www.w3schools.com/colors/colors_rgb.asp
 
-    HSL
+    HSL - 'hue''saturation''lightness'
+      hsl(255, 20%, 30%);
     HSL with alpha (HSLa)
-     HSLa(255, 20%, 30%, 0.4);
+      HSLa(255, 20%, 30%, 0.4);
     HSL calculator: https://www.w3schools.com/colors/colors_hsl.asp
 
     Hexidecimal
-      color: #9167a5;
+      #9167a5;
     Hexidecimal with alpha
+      #9167a588;
     HEX calculator: https://www.w3schools.com/colors/colors_hexadecimal.asp
+
+    'text-shadow' property will duplicate an element on offset it to give the impression of a shadow. 
+      text-shadow: 2px 5px red;
+      in this example I have set a red-colored shadow to appear 2px to the right and 5px down from original element
 */

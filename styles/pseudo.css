@@ -3,18 +3,23 @@
 }
 .nav-links:active{
     background-color: green;
-    border: 10px solid blue;
+    padding: 15px 100px;
+}
+
+.form-fields:optional{
+    border: 2px solid green;
 }
 
 .form-fields:optional:focus{
-    border: 2px solid green;
+    background-color: rgba(0, 255, 0, 0.1);
 }
+
 .form-fields:required{
     border: 2px solid red;
 }
 
-.nav-links:nth-child(even){
-    background-color: yellow;
+.form-fields:required:focus{
+    background-color: rgba(255, 0, 0, 0.1);
 }
 
 .form-container h3:hover::after{
@@ -29,11 +34,12 @@
 /*
 The main difference between pseudo-classes and pseudo-elements is that pseudo-classes are used to affect EXISTING elements and pseudo-elements are used to CREATE new elements
 
-Pseudo-Classes - affect existing elements based on a condition
-    :hover
-    :active
+**Pseudo-Classes - affect existing elements based on a condition**
+Listed below is nearly complete list of all pseudo-classes. Some of the most common of which include 'hover', 'active', and 'focus'
+    :hover  -- User has their cursor over an element but is not clicking
+    :active  -- User is clicking on an elements
+    :focus  -- User has entered into an interactive with an element (e.g. writing text into a form field)
 
-    :focus
     :optional
     :required
 
@@ -60,7 +66,10 @@ Pseudo-Classes - affect existing elements based on a condition
     :first-of-type
     :last-of-type
 
-Pseudo-Elements - element created 
+P**seudo-Elements - create content** 
+Using a pseudo-element like 'before' or 'after' will allow you to add content that did not previously exist without the need to modify HTML
+Listed below is a nearly complete list of pseudo-elements
+
     ::after
     ::before
     ::first-letter

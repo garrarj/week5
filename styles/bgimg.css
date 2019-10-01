@@ -10,13 +10,17 @@
 }
 
 /* 
-display: inline-block;
+The 'background-image' CSS declaration allows you to load an image via online URL or through a locally stored image:
+e.g.
+    background-image: url("https://picsum.photos/200/300");
+    or
+    background-image: url("../images/cat.jpg");
 
-background-image: url(); 
-background-color: ; 
-height: ;
-width: ;
-background-position: left; 
-background-repeat: repeat;
-background-size: 50%; 
+You need to define a height and width for the image's container (a div in this example).
+
+'background-position' dictates where the image will be displayed within the container (e.g. left, right, top, bottom, center). If the image is the same size as the container, this position declaration will have no effect.
+
+'background-repeat' declaration will affect whether the image will be repeated to fill the space within the image's container.
+
+'background-size' dictates the size of the image within the container.
  */
